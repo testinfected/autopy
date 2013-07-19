@@ -16,9 +16,11 @@
 	#include <ApplicationServices/ApplicationServices.h>
 
 	enum _MMMouseButton {
-		LEFT_BUTTON = kCGMouseButtonLeft,
-		RIGHT_BUTTON = kCGMouseButtonRight,
-		CENTER_BUTTON = kCGMouseButtonCenter
+		LEFT_BUTTON       = kCGMouseButtonLeft,
+		RIGHT_BUTTON      = kCGMouseButtonRight,
+		CENTER_BUTTON     = kCGMouseButtonCenter,
+		SCROLLUP_BUTTON   = kCGEventOtherMouseDragged,
+		SCROLLDOWN_BUTTON = kCGEventOtherMouseDragged,
 	};
 	typedef CGMouseButton MMMouseButton;
 
